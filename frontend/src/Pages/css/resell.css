@@ -1,0 +1,9 @@
+.centered-text {
+    text-align: center;
+    margin-top: 50vh; 
+    transform: translateY(-50%);
+}
+
+.huge-text {
+    font-size: 4em;
+}

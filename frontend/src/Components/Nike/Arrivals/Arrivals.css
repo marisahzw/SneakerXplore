@@ -1,0 +1,35 @@
+/* styles.css */
+
+.wrapper {
+  overflow-x: hidden;
+  position: relative;
+}
+
+.shoe-container {
+  display: flex;
+  overflow-x: scroll; 
+  scroll-snap-type: x mandatory; 
+}
+
+.shoe-card {
+  flex: 0 0 auto; 
+  scroll-snap-align: start; 
+  width: 30vw; 
+  padding: 0 1rem; 
+ 
+}
+
+.shoe-card img {
+  max-width: 100%; 
+  max-height: 80%;
+ 
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Hide scrollbar for webkit browsers */
+.shoe-container::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,65 @@
+
+
+.sneaker-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 10px;
+  
+  }
+  
+  .sneaker-card {
+    width: calc(25% - 20px);
+    
+    border-radius: 5px;
+    padding: 5px;
+  
+  }
+  
+  .sneaker-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background: ghostwhite;
+  }
+  
+  .sneakerPrice{
+    color: red;
+  
+  }
+  
+  a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  
+  /**PAGINATION **/
+  
+  .center {
+    text-align: center;
+  }
+  
+  
+  
+  .pagination button {
+    font-size: 30px; 
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    transform: scale(1.1); 
+  }
+  
+  .pagination button:disabled {
+    color: #ccc; 
+    cursor: not-allowed;
+  }
+  
+  

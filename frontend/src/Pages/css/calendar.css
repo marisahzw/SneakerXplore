@@ -1,0 +1,80 @@
+.container-calendar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .cal-releases {
+    text-align: center;
+  }
+  
+  .unreleased {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  
+.sneaker-date{
+  color: red;
+
+}
+
+
+  .sneakerCard-calendar {
+    width: calc(33.33% - 15px);
+  }
+  
+  .name-image {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-card-calendar {
+    text-align: center;
+  }
+  
+  .image-card-calendar img {
+    max-width: 100%;
+    height: 150px;
+  }
+
+
+  /**PAGINATION **/
+  
+  .pagination-cal {
+   
+    text-align: center;
+  }
+  
+  .pagination-cal button {
+    font-size: 30px; 
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .pagination-cal button:hover {
+    transform: scale(1.1); 
+  }
+  
+  .pagination-cal button:disabled {
+    color: #ccc; 
+    cursor: not-allowed;
+  }
+  
+  @media (max-width: 768px) {
+    .sneaker {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .sneaker {
+      width: 100%;
+    }
+  }
+  

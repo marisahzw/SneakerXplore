@@ -1,0 +1,101 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+  }
+
+  h1.m12 {
+    font-weight: 900;
+    font-size: 3.5em;
+    text-align: center;
+  }
+  
+  h1.m12 .letter {
+    display: inline-block;
+    line-height: 1em;
+    color: red;
+  }
+  
+  
+  .Details-card {
+    width: 50%;
+    padding: 10px;
+   
+  }
+  
+  .img-card img {
+    width: 100%; 
+    height: auto;
+    background-color: azure;
+  }
+  
+  .sneakerdetails-card {
+    background-color: ghostwhite;
+    width: 95%; 
+    border: 1px groove grey;
+    padding: 10px;
+    border-radius: 20px;
+  
+  }
+  
+  .marketplace {
+    border: 1px groove grey;
+    width: 100%;
+    height: max-content; 
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+  
+    
+  
+  }
+
+  .wheretobuy h2{
+    text-align: center;
+    
+   
+  }
+  
+  .desc{
+    background-color: ghostwhite;
+    width: 95%; 
+    ;
+    border: 1px groove grey;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .marketplace p a:link, a:visited{ background-color: #f44336;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    border-radius: 10px;
+
+  }
+
+
+
+  .name-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .name-header img {
+    margin-right: auto;
+    width: 100px;
+    height: auto;
+
+  }
+  
+  .name-header h3 {
+    margin-left: auto; 
+  }
+
+  
